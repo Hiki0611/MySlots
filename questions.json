@@ -1,0 +1,704 @@
+[
+    {
+        "id": 1,
+        "level": "Beginner",
+        "question": "What is the plural of 'cat'?",
+        "options": ["cats", "cates", "caties", "cat's"],
+        "answer": "cats"
+    },
+    {
+        "id": 2,
+        "level": "Beginner",
+        "question": "Choose the correct verb: I ___ a student.",
+        "options": ["is", "are", "am", "be"],
+        "answer": "am"
+    },
+    {
+        "id": 3,
+        "level": "Beginner",
+        "question": "How do you say 'Яблоко' in English?",
+        "options": ["Orange", "Banana", "Grape", "Apple"],
+        "answer": "Apple"
+    },
+    {
+        "id": 4,
+        "level": "Beginner",
+        "question": "Fill in the blank: This is ___ book.",
+        "options": ["a", "an", "the", "—"],
+        "answer": "a"
+    },
+    {
+        "id": 5,
+        "level": "Beginner",
+        "question": "What is the correct negative form: He ___ happy.",
+        "options": ["isn't", "aren't", "don't", "not"],
+        "answer": "isn't"
+    },
+    {
+        "id": 6,
+        "level": "Beginner",
+        "question": "What number comes after 'nine'?",
+        "options": ["ten", "eleven", "eight", "twelve"],
+        "answer": "ten"
+    },
+    {
+        "id": 7,
+        "level": "Beginner",
+        "question": "Which one is a part of the body?",
+        "options": ["chair", "hand", "table", "door"],
+        "answer": "hand"
+    },
+    {
+        "id": 8,
+        "level": "Beginner",
+        "question": "What is the opposite of 'big'?",
+        "options": ["long", "tall", "small", "wide"],
+        "answer": "small"
+    },
+    {
+        "id": 9,
+        "level": "Beginner",
+        "question": "Choose the correct pronoun: ___ is my sister. (She/Her)",
+        "options": ["She", "Her", "He", "Him"],
+        "answer": "She"
+    },
+    {
+        "id": 10,
+        "level": "Beginner",
+        "question": "What day is before Tuesday?",
+        "options": ["Wednesday", "Monday", "Sunday", "Thursday"],
+        "answer": "Monday"
+    },
+    {
+        "id": 11,
+        "level": "Beginner",
+        "question": "Complete the phrase: ___ morning!",
+        "options": ["Bad", "Good", "Night", "Afternoon"],
+        "answer": "Good"
+    },
+    {
+        "id": 12,
+        "level": "Beginner",
+        "question": "They ___ playing now.",
+        "options": ["is", "am", "are", "be"],
+        "answer": "are"
+    },
+    {
+        "id": 13,
+        "level": "Beginner",
+        "question": "How many colors are in a rainbow? (Approximate basic number)",
+        "options": ["three", "five", "seven", "nine"],
+        "answer": "seven"
+    },
+    {
+        "id": 14,
+        "level": "Beginner",
+        "question": "What is the sound a dog makes?",
+        "options": ["meow", "quack", "oink", "bark"],
+        "answer": "bark"
+    },
+    {
+        "id": 15,
+        "level": "Beginner",
+        "question": "The sky is usually ___.",
+        "options": ["red", "green", "blue", "yellow"],
+        "answer": "blue"
+    },
+    {
+        "id": 16,
+        "level": "Beginner",
+        "question": "What is the full form of 'it's'?",
+        "options": ["it has", "its", "it is", "it are"],
+        "answer": "it is"
+    },
+    {
+        "id": 17,
+        "level": "Beginner",
+        "question": "Choose the correct preposition: The pencil is ___ the desk.",
+        "options": ["under", "in", "on", "at"],
+        "answer": "on"
+    },
+    {
+        "id": 18,
+        "level": "Beginner",
+        "question": "What is the past simple of 'go'?",
+        "options": ["goed", "gone", "went", "goes"],
+        "answer": "went"
+    },
+    {
+        "id": 19,
+        "level": "Beginner",
+        "question": "We ___ television every evening.",
+        "options": ["watch", "watching", "is watching", "watched"],
+        "answer": "watch"
+    },
+    {
+        "id": 20,
+        "level": "Beginner",
+        "question": "Is your name Tom? Yes, ___.",
+        "options": ["I am", "I do", "it is", "I is"],
+        "answer": "I am"
+    },
+    {
+        "id": 21,
+        "level": "Elementary",
+        "question": "What is the opposite of 'happy'?",
+        "options": ["glad", "sad", "joyful", "excited"],
+        "answer": "sad"
+    },
+    {
+        "id": 22,
+        "level": "Elementary",
+        "question": "Fill in the blank: She goes to school ___ bus.",
+        "options": ["on", "in", "by", "with"],
+        "answer": "by"
+    },
+    {
+        "id": 23,
+        "level": "Elementary",
+        "question": "Which of these is a modal verb?",
+        "options": ["walk", "eat", "can", "read"],
+        "answer": "can"
+    },
+    {
+        "id": 24,
+        "level": "Elementary",
+        "question": "What time ___ the train leave?",
+        "options": ["do", "does", "is", "are"],
+        "answer": "does"
+    },
+    {
+        "id": 25,
+        "level": "Elementary",
+        "question": "She ___ born in 1990.",
+        "options": ["was", "were", "is", "be"],
+        "answer": "was"
+    },
+    {
+        "id": 26,
+        "level": "Elementary",
+        "question": "Compare: My car is ___ than yours.",
+        "options": ["fast", "faster", "fastest", "the fastest"],
+        "answer": "faster"
+    },
+    {
+        "id": 27,
+        "level": "Elementary",
+        "question": "Choose the correct question word: ___ is your favorite color? – Blue.",
+        "options": ["How", "What", "Where", "Who"],
+        "answer": "What"
+    },
+    {
+        "id": 28,
+        "level": "Elementary",
+        "question": "I don't have ___ money left.",
+        "options": ["some", "any", "no", "many"],
+        "answer": "any"
+    },
+    {
+        "id": 29,
+        "level": "Elementary",
+        "question": "What is the past simple of 'take'?",
+        "options": ["taked", "taken", "took", "takes"],
+        "answer": "took"
+    },
+    {
+        "id": 30,
+        "level": "Elementary",
+        "question": "The film starts ___ seven o'clock.",
+        "options": ["in", "on", "at", "by"],
+        "answer": "at"
+    },
+    {
+        "id": 31,
+        "level": "Elementary",
+        "question": "Choose the possessive adjective: This is ___ house. (We)",
+        "options": ["us", "our", "ours", "we"],
+        "answer": "our"
+    },
+    {
+        "id": 32,
+        "level": "Elementary",
+        "question": "They ___ usually eat meat.",
+        "options": ["don't", "doesn't", "aren't", "not"],
+        "answer": "don't"
+    },
+    {
+        "id": 33,
+        "level": "Elementary",
+        "question": "How ___ sugar do you want?",
+        "options": ["many", "much", "lot", "some"],
+        "answer": "much"
+    },
+    {
+        "id": 34,
+        "level": "Elementary",
+        "question": "She is taller ___ her brother.",
+        "options": ["as", "from", "than", "to"],
+        "answer": "than"
+    },
+    {
+        "id": 35,
+        "level": "Elementary",
+        "question": "We are ___ for the train right now.",
+        "options": ["wait", "waited", "waiting", "waits"],
+        "answer": "waiting"
+    },
+    {
+        "id": 36,
+        "level": "Elementary",
+        "question": "Choose the correct phrase for asking permission:",
+        "options": ["Do I open the window?", "Can I open the window?", "I open the window?", "Open the window?"],
+        "answer": "Can I open the window?"
+    },
+    {
+        "id": 37,
+        "level": "Elementary",
+        "question": "What is the superlative form of 'good'?",
+        "options": ["gooder", "better", "best", "most good"],
+        "answer": "best"
+    },
+    {
+        "id": 38,
+        "level": "Elementary",
+        "question": "There ___ a lot of people at the party yesterday.",
+        "options": ["was", "were", "is", "are"],
+        "answer": "were"
+    },
+    {
+        "id": 39,
+        "level": "Elementary",
+        "question": "Choose the correct word: I need a new ___ of shoes.",
+        "options": ["pack", "pair", "set", "group"],
+        "answer": "pair"
+    },
+    {
+        "id": 40,
+        "level": "Elementary",
+        "question": "What time is it: 3:30?",
+        "options": ["Three thirty-two", "Half past three", "Three thirty-one", "Half to three"],
+        "answer": "Half past three"
+    },
+
+    {
+        "id": 41,
+        "level": "Pre-Intermediate",
+        "question": "Complete the sentence: If I ___ rich, I would travel the world.",
+        "options": ["was", "were", "am", "have been"],
+        "answer": "were"
+    },
+    {
+        "id": 42,
+        "level": "Pre-Intermediate",
+        "question": "What is the gerund form of 'swim'?",
+        "options": ["swam", "swimming", "swims", "swum"],
+        "answer": "swimming"
+    },
+    {
+        "id": 43,
+        "level": "Pre-Intermediate",
+        "question": "I haven't seen her ___ last Monday.",
+        "options": ["for", "since", "ago", "during"],
+        "answer": "since"
+    },
+    {
+        "id": 44,
+        "level": "Pre-Intermediate",
+        "question": "We ___ to London next week. (Planned trip)",
+        "options": ["go", "will go", "are going", "went"],
+        "answer": "are going"
+    },
+    {
+        "id": 45,
+        "level": "Pre-Intermediate",
+        "question": "Choose the correct form: She enjoys ___ books.",
+        "options": ["read", "to read", "reading", "reads"],
+        "answer": "reading"
+    },
+    {
+        "id": 46,
+        "level": "Pre-Intermediate",
+        "question": "If it rains, we ___ stay at home.",
+        "options": ["will", "would", "might", "would have"],
+        "answer": "will"
+    },
+    {
+        "id": 47,
+        "level": "Pre-Intermediate",
+        "question": "He ___ here for ten years. (And is still here)",
+        "options": ["lived", "is living", "has lived", "was living"],
+        "answer": "has lived"
+    },
+    {
+        "id": 48,
+        "level": "Pre-Intermediate",
+        "question": "Choose the correct reflexive pronoun: I cut ___ with a knife.",
+        "options": ["me", "myself", "mine", "my"],
+        "answer": "myself"
+    },
+    {
+        "id": 49,
+        "level": "Pre-Intermediate",
+        "question": "The passive voice: The letter ___ yesterday.",
+        "options": ["wrote", "was written", "was writing", "is written"],
+        "answer": "was written"
+    },
+    {
+        "id": 50,
+        "level": "Pre-Intermediate",
+        "question": "You ___ smoke in this building. (Prohibition)",
+        "options": ["mustn't", "don't have to", "shouldn't", "needn't"],
+        "answer": "mustn't"
+    },
+    {
+        "id": 51,
+        "level": "Pre-Intermediate",
+        "question": "Choose the correct question tag: You like pizza, ___?",
+        "options": ["don't you", "do you", "aren't you", "isn't you"],
+        "answer": "don't you"
+    },
+    {
+        "id": 52,
+        "level": "Pre-Intermediate",
+        "question": "I promise I ___ help you tomorrow. (Decision at the moment of speaking)",
+        "options": ["will", "am going to", "help", "helped"],
+        "answer": "will"
+    },
+    {
+        "id": 53,
+        "level": "Pre-Intermediate",
+        "question": "They were watching TV ___ the phone rang.",
+        "options": ["while", "during", "since", "when"],
+        "answer": "when"
+    },
+    {
+        "id": 54,
+        "level": "Pre-Intermediate",
+        "question": "What is a synonym for 'old' (when describing things)?",
+        "options": ["new", "ancient", "modern", "quick"],
+        "answer": "ancient"
+    },
+    {
+        "id": 55,
+        "level": "Pre-Intermediate",
+        "question": "Choose the correct phrase: I look forward ___ you.",
+        "options": ["to see", "seeing", "to seeing", "see"],
+        "answer": "to seeing"
+    },
+    {
+        "id": 56,
+        "level": "Pre-Intermediate",
+        "question": "She's wearing ___ beautiful dress.",
+        "options": ["a", "an", "the", "—"],
+        "answer": "a"
+    },
+    {
+        "id": 57,
+        "level": "Pre-Intermediate",
+        "question": "The man ___ car was stolen called the police.",
+        "options": ["who", "whose", "which", "whom"],
+        "answer": "whose"
+    },
+    {
+        "id": 58,
+        "level": "Pre-Intermediate",
+        "question": "I wish I ___ fly.",
+        "options": ["can", "could", "would", "may"],
+        "answer": "could"
+    },
+    {
+        "id": 59,
+        "level": "Pre-Intermediate",
+        "question": "He has ___ good sense of humour.",
+        "options": ["very", "too much", "too", "such a"],
+        "answer": "such a"
+    },
+    {
+        "id": 60,
+        "level": "Pre-Intermediate",
+        "question": "She asked me where ___.",
+        "options": ["did I live", "I lived", "do I live", "I live"],
+        "answer": "I lived"
+    },
+
+    {
+        "id": 61,
+        "level": "Intermediate",
+        "question": "Which phrase means 'to postpone'?",
+        "options": ["put off", "put on", "put up with", "put out"],
+        "answer": "put off"
+    },
+    {
+        "id": 62,
+        "level": "Intermediate",
+        "question": "What is a synonym for 'ubiquitous'?",
+        "options": ["rare", "present everywhere", "unique", "difficult"],
+        "answer": "present everywhere"
+    },
+    {
+        "id": 63,
+        "level": "Intermediate",
+        "question": "The children were tired, but they carried ___ walking.",
+        "options": ["on", "out", "over", "through"],
+        "answer": "on"
+    },
+    {
+        "id": 64,
+        "level": "Intermediate",
+        "question": "She told me that she ___ come the next day.",
+        "options": ["will", "is going to", "would", "can"],
+        "answer": "would"
+    },
+    {
+        "id": 65,
+        "level": "Intermediate",
+        "question": "If I had known, I ___ helped you. (Conditional Type 3)",
+        "options": ["will have", "would have", "had have", "would be"],
+        "answer": "would have"
+    },
+    {
+        "id": 66,
+        "level": "Intermediate",
+        "question": "Choose the most appropriate word: The old man was known for his ___.",
+        "options": ["flair", "wisdom", "stupidity", "childish"],
+        "answer": "wisdom"
+    },
+    {
+        "id": 67,
+        "level": "Intermediate",
+        "question": "I regret ___ him the truth.",
+        "options": ["to tell", "telling", "tell", "tells"],
+        "answer": "telling"
+    },
+    {
+        "id": 68,
+        "level": "Intermediate",
+        "question": "The meeting, ___ was held in Paris, was successful.",
+        "options": ["that", "which", "where", "what"],
+        "answer": "which"
+    },
+    {
+        "id": 69,
+        "level": "Intermediate",
+        "question": "Choose the correct phrasal verb: They had to ___ the football match due to heavy rain.",
+        "options": ["call up", "call off", "call out", "call in"],
+        "answer": "call off"
+    },
+    {
+        "id": 70,
+        "level": "Intermediate",
+        "question": "Hardly had I arrived ___ it started to snow.",
+        "options": ["when", "than", "then", "as soon as"],
+        "answer": "when"
+    },
+    {
+        "id": 71,
+        "level": "Intermediate",
+        "question": "He succeeded ___ hard work.",
+        "options": ["because", "due to", "in spite of", "instead of"],
+        "answer": "due to"
+    },
+    {
+        "id": 72,
+        "level": "Intermediate",
+        "question": "The bank refused to lend him money, ___ he had a good job.",
+        "options": ["despite", "even though", "because", "so"],
+        "answer": "even though"
+    },
+    {
+        "id": 73,
+        "level": "Intermediate",
+        "question": "Which word is a synonym for 'efficient'?",
+        "options": ["lazy", "productive", "sloppy", "ineffective"],
+        "answer": "productive"
+    },
+    {
+        "id": 74,
+        "level": "Intermediate",
+        "question": "The more you practice, ___ you become.",
+        "options": ["better", "the better", "good", "best"],
+        "answer": "the better"
+    },
+    {
+        "id": 75,
+        "level": "Intermediate",
+        "question": "Choose the correct phrase: I am used ___ up early.",
+        "options": ["to get", "to getting", "get", "got"],
+        "answer": "to getting"
+    },
+    {
+        "id": 76,
+        "level": "Intermediate",
+        "question": "Only ___ people attended the conference.",
+        "options": ["a few", "a little", "much", "plenty"],
+        "answer": "a few"
+    },
+    {
+        "id": 77,
+        "level": "Intermediate",
+        "question": "They arrived late, ___ the film had already started.",
+        "options": ["so", "but", "for", "though"],
+        "answer": "so"
+    },
+    {
+        "id": 78,
+        "level": "Intermediate",
+        "question": "Which option completes the sentence: Not only did he finish the race, ___ broke the world record.",
+        "options": ["but he also", "and he also", "he also", "also he"],
+        "answer": "but he also"
+    },
+    {
+        "id": 79,
+        "level": "Intermediate",
+        "question": "Choose the correct tense: By the time we arrived, they ___ dinner.",
+        "options": ["ate", "have eaten", "had eaten", "were eating"],
+        "answer": "had eaten"
+    },
+    {
+        "id": 80,
+        "level": "Intermediate",
+        "question": "The idea ___ he proposed was rejected.",
+        "options": ["who", "whom", "which", "whose"],
+        "answer": "which"
+    },
+    {
+        "id": 81,
+        "level": "IELTS",
+        "question": "Identify the logical fallacy: 'Either you support the policy or you hate your country.'",
+        "options": ["Ad Hominem", "False Dichotomy", "Straw Man", "Hasty Generalization"],
+        "answer": "False Dichotomy"
+    },
+    {
+        "id": 82,
+        "level": "IELTS",
+        "question": "The company's expansion was hampered by ___ regulations.",
+        "options": ["fastidious", "onerous", "perspicacious", "salient"],
+        "answer": "onerous"
+    },
+    {
+        "id": 83,
+        "level": "IELTS",
+        "question": "Which sentence uses the passive voice correctly?",
+        "options": ["She was given the job offer.", "The manager gave her the job offer.", "The job offer gives her hope.", "She is giving the job."],
+        "answer": "She was given the job offer."
+    },
+    {
+        "id": 84,
+        "level": "IELTS",
+        "question": "Choose the word closest in meaning to 'ameliorate'.",
+        "options": ["worsen", "improve", "destroy", "investigate"],
+        "answer": "improve"
+    },
+    {
+        "id": 85,
+        "level": "IELTS",
+        "question": "The decline in public engagement is a matter of profound ___.",
+        "options": ["fastidiousness", "salience", "acuity", "concern"],
+        "answer": "concern"
+    },
+    {
+        "id": 86,
+        "level": "IELTS",
+        "question": "Which option demonstrates correct inversion for a negative adverbial?",
+        "options": ["Never I have seen such a beautiful sight.", "Never have I seen such a beautiful sight.", "I have never seen such a beautiful sight.", "Such a beautiful sight I have never seen."],
+        "answer": "Never have I seen such a beautiful sight."
+    },
+    {
+        "id": 87,
+        "level": "IELTS",
+        "question": "Choose the best collocation: To ___ an argument.",
+        "options": ["make", "support", "fabricate", "forge"],
+        "answer": "support"
+    },
+    {
+        "id": 88,
+        "level": "IELTS",
+        "question": "The research findings should be viewed with a degree of ___.",
+        "options": ["credibility", "adulation", "scepticism", "prejudice"],
+        "answer": "scepticism"
+    },
+    {
+        "id": 89,
+        "level": "IELTS",
+        "question": "Despite the compelling evidence, the jury remained ___ in their decision.",
+        "options": ["ambiguous", "adamant", "compliant", "oblivious"],
+        "answer": "adamant"
+    },
+    {
+        "id": 90,
+        "level": "IELTS",
+        "question": "Complete the sentence with a non-defining relative clause: My brother, ___ lives in New York, is a doctor.",
+        "options": ["that", "who", "which", "whom"],
+        "answer": "who"
+    },
+    {
+        "id": 91,
+        "level": "IELTS",
+        "question": "Choose the correct modal perfect: He ___ left earlier to catch the flight.",
+        "options": ["must leave", "should have left", "would leave", "can leave"],
+        "answer": "should have left"
+    },
+    {
+        "id": 92,
+        "level": "IELTS",
+        "question": "The experiment yielded a statistically ___ result.",
+        "options": ["significant", "conspicuous", "verbose", "superfluous"],
+        "answer": "significant"
+    },
+    {
+        "id": 93,
+        "level": "IELTS",
+        "question": "It is incumbent ___ all citizens to vote.",
+        "options": ["on", "with", "to", "by"],
+        "answer": "on"
+    },
+    {
+        "id": 94,
+        "level": "IELTS",
+        "question": "Which word is an antonym for 'transient'?",
+        "options": ["temporary", "ephemeral", "permanent", "fleeting"],
+        "answer": "permanent"
+    },
+    {
+        "id": 95,
+        "level": "IELTS",
+        "question": "The politician's speech was full of ___ rhetoric, aimed at stirring emotions.",
+        "options": ["impartial", "demagogic", "austere", "pragmatic"],
+        "answer": "demagogic"
+    },
+    {
+        "id": 96,
+        "level": "IELTS",
+        "question": "The document was intentionally written in a way that was open to multiple interpretations, making it ___.",
+        "options": ["equivocal", "unequivocal", "lucid", "explicit"],
+        "answer": "equivocal"
+    },
+    {
+        "id": 97,
+        "level": "IELTS",
+        "question": "The findings were a strong ___ to the popular theory.",
+        "options": ["corroboration", "rebuttal", "affirmation", "concurrence"],
+        "answer": "rebuttal"
+    },
+    {
+        "id": 98,
+        "level": "IELTS",
+        "question": "Choose the most formal phrase for expressing necessity:",
+        "options": ["It's necessary to do it.", "You have to do it.", "It is a requirement that this be done.", "You must do it."],
+        "answer": "It is a requirement that this be done."
+    },
+    {
+        "id": 99,
+        "level": "IELTS",
+        "question": "Had the rescue team arrived sooner, the climber ___ saved.",
+        "options": ["would be", "will be", "would have been", "had been"],
+        "answer": "would have been"
+    },
+    {
+        "id": 100,
+        "level": "IELTS",
+        "question": "Which of the following describes a person who is reserved and shy?",
+        "options": ["extrovert", "gregarious", "introverted", "vociferous"],
+        "answer": "introverted"
+    }
+]

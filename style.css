@@ -1,0 +1,282 @@
+/* --- Global Variables: Dark, Matte, Neon Theme (Optimized) --- */
+:root {
+    --background-dark: #12121e;
+    --background-mid: #1e1e2f;
+    --neon-blue: #00e0ff;
+    --neon-purple: #9d00ff;
+    --primary-gradient-start: #3300ff;
+    --primary-gradient-end: #00e0ff;
+    --card-matte: rgba(255, 255, 255, 0.08); /* Прозрачность */
+    --card-border: rgba(255, 255, 255, 0.15);
+    --text-color: #f0f0ff;
+    --shadow-dark: rgba(0, 0, 0, 0.6);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* --- BASE STYLES (Mobile-First: Stabilized) --- */
+body {
+    font-family: 'Outfit', 'Arial', sans-serif; /* Добавляем запасной стабильный шрифт */
+    background: linear-gradient(135deg, var(--background-dark) 0%, #080814 100%);
+    color: var(--text-color);
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Более стабильно для мобильных, чем 'center' */
+    min-height: 100vh;
+    padding: 10px;
+    font-size: 16px; 
+    overflow-x: hidden; /* Защита от горизонтальной прокрутки */
+}
+
+.container {
+    background: var(--background-mid);
+    padding: 20px;
+    border-radius: 15px;
+    /* Неоновое свечение и матовость */
+    box-shadow: 
+        0 8px 20px var(--shadow-dark), 
+        0 0 10px rgba(157, 0, 255, 0.3) inset; 
+    width: 100%;
+    max-width: 95vw; /* Увеличиваем доступное пространство */
+    border: 1px solid var(--card-border);
+    margin-top: 10px;
+}
+
+h1 {
+    /* Пафосный Неоновый Заголовок */
+    background: linear-gradient(45deg, var(--neon-blue), var(--neon-purple));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: var(--neon-blue); /* Fallback */
+    margin-bottom: 20px;
+    font-size: 1.8em; 
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 0 0 5px rgba(0, 224, 255, 0.4); /* Уменьшаем свечение для стабильности */
+}
+
+h2 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+/* --- Buttons (Base) --- */
+button {
+    background: linear-gradient(90deg, var(--primary-gradient-start), var(--primary-gradient-end));
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    margin-top: 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: 600;
+    box-shadow: 0 3px 10px rgba(0, 224, 255, 0.3);
+    transition: all 0.2s ease;
+    text-transform: uppercase;
+    /* Убираем сложные трансформации, которые ломают старые браузеры */
+}
+
+button:hover:not(:disabled) {
+    transform: translateY(-1px);
+    box-shadow: 0 5px 15px rgba(0, 224, 255, 0.5);
+}
+
+.small-button {
+    margin-top: 20px;
+    padding: 8px 15px;
+    font-size: 0.8em;
+    background: var(--background-mid);
+    color: var(--neon-blue);
+    border: 1px solid var(--neon-blue);
+    box-shadow: 0 0 5px var(--neon-blue);
+}
+.small-button:hover:not(:disabled) {
+    background: var(--neon-blue);
+    color: var(--background-mid);
+    box-shadow: 0 0 10px var(--neon-blue);
+    transform: none;
+}
+
+/* --- Level Selection & Multiselect (Mobile Adaptation) --- */
+.level-options {
+    display: flex;
+    flex-direction: column; /* Вертикальный стек по умолчанию */
+    gap: 8px;
+    margin-bottom: 15px;
+}
+
+.level-button {
+    background: var(--card-matte);
+    color: var(--text-color);
+    border: 1px solid var(--card-border);
+    width: 100%; /* Занимает всю ширину */
+    box-shadow: 0 1px 3px var(--shadow-dark);
+}
+
+.level-button.selected {
+    background: var(--primary-gradient-start);
+    color: white;
+    border-color: var(--neon-blue);
+    box-shadow: 0 0 10px var(--neon-blue);
+    transform: scale(1.02);
+}
+
+/* --- SLOT MACHINE STYLES (Stable and Adapted) --- */
+.slot-container {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    height: 100px; 
+    margin: 20px auto;
+    border: 2px solid var(--neon-purple);
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(157, 0, 255, 0.5);
+}
+
+.slot-track {
+    display: flex;
+    position: absolute;
+    height: 100%;
+}
+
+.slot-card {
+    min-width: 100%; 
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.1em;
+    font-weight: 700;
+    background: rgba(30, 30, 47, 0.8); 
+    color: var(--text-color);
+    border-right: 1px solid var(--card-border);
+    padding: 0 10px;
+    white-space: nowrap; /* Важно для предотвращения переноса текста */
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.slot-card.placeholder {
+    background: linear-gradient(90deg, #1e1e2f, #3a3a5a); 
+    color: var(--neon-blue);
+    box-shadow: 0 0 8px var(--neon-blue) inset;
+}
+
+.neon-line {
+    border-radius: 10px;
+    box-shadow: 0 0 10px var(--neon-blue) inset, 0 0 10px var(--neon-blue);
+    opacity: 0.8;
+}
+
+@keyframes neon-pulse {
+    from { box-shadow: 0 0 8px var(--neon-blue) inset, 0 0 8px var(--neon-blue); }
+    to { box-shadow: 0 0 12px var(--neon-blue) inset, 0 0 12px var(--neon-blue); }
+}
+
+/* --- QUESTION AREA & OPTIONS (Adapted) --- */
+.question-area {
+    margin-top: 25px;
+    padding: 15px;
+    background: rgba(30, 30, 47, 0.6); 
+    border-radius: 12px;
+    border: 1px solid var(--neon-purple);
+    box-shadow: 0 0 10px rgba(157, 0, 255, 0.3);
+}
+
+.options {
+    margin-top: 15px;
+    gap: 8px;
+}
+
+.option-button {
+    background: var(--card-matte);
+    color: var(--text-color);
+    padding: 12px;
+    border: 1px solid var(--card-border);
+    font-size: 0.95em;
+    /* Убираем трансформацию translateX для старых устройств */
+}
+
+.option-button:hover:not(:disabled) {
+    background: rgba(255, 255, 255, 0.2);
+    border-color: var(--neon-blue);
+}
+
+/* Feedback Colors */
+.correct {
+    background: linear-gradient(90deg, #4CAF50, #00FF7F) !important;
+    color: var(--background-dark) !important;
+    box-shadow: 0 0 8px #00FF7F !important;
+}
+
+.incorrect {
+    background: linear-gradient(90deg, #f44336, #ff4500) !important;
+    color: white !important;
+    box-shadow: 0 0 8px #ff4500 !important;
+}
+
+/* =================================================== */
+/* --- MEDIA QUERIES (DESKTOP / Tablet Optimization) --- */
+/* =================================================== */
+
+@media (min-width: 600px) {
+    body {
+        align-items: center; 
+        padding: 20px;
+    }
+
+    .container {
+        padding: 40px;
+        max-width: 650px;
+    }
+
+    h1 {
+        font-size: 2.5em;
+    }
+    
+    /* Горизонтальное расположение кнопок уровня */
+    .level-options {
+        flex-direction: row; 
+        flex-wrap: wrap;
+        gap: 12px;
+    }
+
+    .level-button {
+        width: auto;
+        min-width: 120px;
+        flex-grow: 1;
+        padding: 10px 15px;
+    }
+
+    .level-button.selected {
+        transform: scale(1.05); /* Возвращаем более сильный пафос на больших экранах */
+    }
+    
+    .slot-container {
+        height: 140px;
+        margin: 30px auto;
+    }
+    
+    .slot-card {
+        font-size: 1.5em;
+    }
+    
+    .option-button {
+        font-size: 1em;
+        padding: 15px;
+    }
+}
+
+/* ... (весь остальной CSS код) ... */
+
+/* --- CRITICAL FIX: Гарантируем, что класс hidden работает --- */
+.hidden {
+    display: none !important;
+    /* !important гарантирует, что этот стиль не будет переопределен 
+       никаким другим inline- или CSS-стилем */
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic English Quiz Slot</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>THE KNOWLEDGE SLOTS</h1>
+        
+        <div class="level-selection" id="levelSelection">
+            <h2>1. Choose Your Challenge Levels</h2>
+            <p class="instruction">Select one or more levels to mix the challenge.</p>
+            <div class="level-options">
+                <button class="level-button" data-level="Beginner">Beginner</button>
+                <button class="level-button" data-level="Elementary">Elementary</button>
+                <button class="level-button" data-level="Pre-Intermediate">Pre-Intermediate</button>
+                <button class="level-button" data-level="Intermediate">Intermediate</button>
+                <button class="level-button" data-level="IELTS">IELTS</button>
+            </div>
+            <button id="startButton" disabled>START CHALLENGE</button>
+        </div>
+
+        <div class="game-area hidden" id="gameArea">
+            <h2 id="currentLevelDisplay"></h2>
+
+            <div class="slot-container">
+                <div class="slot-track" id="slotTrack">
+                    <div class="slot-card placeholder">SPIN TO LOAD</div>
+                </div>
+                <div class="neon-line"></div> 
+            </div>
+
+            <button id="spinButton">PULL THE LEVER!</button>
+            
+            <div class="question-area hidden" id="questionArea">
+                <h3 id="questionText"></h3>
+                <div class="options" id="optionsContainer">
+                    </div>
+                <p class="feedback" id="feedbackMessage"></p>
+                <button id="nextQuestionButton" class="hidden"></button> 
+            </div>
+
+            <button id="changeLevelButton" class="small-button">CHANGE LEVELS</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="crack.js"></script>
+</body>
+</html>
